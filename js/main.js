@@ -9,9 +9,9 @@ $('body').append($ulAbove);
 
 $('ul li').each(function () {
   if ($(this).hasClass('below')) {
-    $ulBelow.append($(this))
+    $ulBelow.append($(this));
 } else {
-    $ulAbove.append($(this))
+    $ulAbove.append($(this));
 }
 });
 
