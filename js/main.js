@@ -10,9 +10,9 @@ $('body').append($ulAbove);
 $('ul li').each(function () {
   if ($(this).hasClass('below')) {
     $ulBelow.append($(this));
-} else {
+  } else {
     $ulAbove.append($(this));
-}
+  }
 });
 
 $('ul:first-child').remove();
